@@ -31,9 +31,11 @@ When a user sent a new photo, the bot compared it with stored identities and ret
 
 Bot in action:
 
-![Bot main interface](path/to/image1.png)
+![Bot main interface](hme_recognizer_home.png)
 
-![Face recognition example](path/to/image2.png)
+![Face recognition registration](hme_recognizer____Enrollment.png)
+
+![Face recognition verification](hme_recognizer__verification.png)
 
 ---
 
