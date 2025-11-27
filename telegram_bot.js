@@ -1,5 +1,5 @@
 const { Telegraf } = require("telegraf");
-const TOKEN = '6255292930:AAH62cBEiJQJ3X7l-hiPwNFkS6pmegaIlSQ';
+const TOKEN = 'insert your tel token';
 const bot = new Telegraf(TOKEN);
 const Redis = require('ioredis');
 
