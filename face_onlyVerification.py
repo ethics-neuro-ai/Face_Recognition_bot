@@ -31,7 +31,7 @@ import json
 from deepface import DeepFace
 
 
-client = MongoClient('mongodb+srv://faziolistella:B0qlsJucolNe1aJT@cluster0.lk0oteg.mongodb.net/?retryWrites=true&w=majority')
+client = MongoClient('mongodb+srv://nome:codicemongodb')
 
 database = client["test"]
 collection = database["users"] 
@@ -65,7 +65,7 @@ def extract_face(image):
 # In[111]:
 
 
-model_dir = '/Users/stellafazioli/Downloads/app/app/models/modelUpdated_DSet.xml'
+model_dir = '/Downloads/app/app/models/modelUpdated_DSet.xml'
 face_recognizer = cv2.face.LBPHFaceRecognizer_create()
 face_recognizer.read(model_dir)
 
