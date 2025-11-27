@@ -13,7 +13,7 @@ from deepface.commons.distance import findCosineDistance
 
 # %%
 # Set the paths for the dataset
-dataset_path = "/Users/stellafazioli/Documents/Lfw-test-deepf-impostors"
+dataset_path = "/Users/Documents/Lfw-test-deepf-impostors"
 
 # Initialize DeepFace model (Facenet512)
 model = "Facenet"
@@ -77,7 +77,7 @@ for i in range(len(X_test)):
 
 
 # %%
-output_file = '/Users/stellafazioli/Documents/similarities_score.txt'
+output_file = '/Users/Documents/similarities_score.txt'
 
 # Save the similarity scores to file
 with open(output_file, 'w') as file:
